@@ -1,0 +1,115 @@
+body {
+    font-family: 'Bricolage Grotesque', sans-serif;
+
+}
+
+.mybasketball {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 75px;
+    max-width: 500px;
+    max-height: 700px;
+    background: #00CCCC;
+    padding-bottom: 25px;    
+}
+
+.hometeam, .guestteam {
+    font-weight: bold;
+    width: 50%;
+}
+
+.teamname1{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 3px 4px rgba(0,0,0,0.44);
+}
+
+.teamname2{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 3px 4px rgba(0,0,0,0.44);
+}
+
+@font-face {
+  font-family: 'timefont'; 
+  src: url('CursedTimerUlil-Aznm.ttf'); 
+}
+
+.scorenumber {
+    background: black; 
+    color: red;
+    text-align: center; 
+    max-width: 100px;
+    margin: 10px auto 10px;
+    border-radius: 3px;
+    box-shadow: 0px 8px 6px -4px rgba(0,0,0,0.57);
+}
+
+.myscore1, .myscore2 {
+    font-family: timefont;
+    font-size: 55px;
+    padding: 15px 15px 0px ;
+    letter-spacing: 3px;
+}
+
+.pointadder, button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    gap: 20px;
+    height: 36px;
+    background: #00CCCC;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    border-color: #EAEAEA;    
+}
+
+.pointadder, button:focus {
+    outline: none;
+}
+
+
+.point1, .point2, .point3 {
+    font-family: timefont;
+    text-align: center;
+    color: #EAEAEA;
+}
+
+.timeclock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #00CCCC;
+    max-width: 500px;
+  }
+  
+  #timer {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0 20px;  /* Horizontal margin */
+    font-family: timefont;
+  }
+  
+  #startButton, #stopButton {
+    background-color: #00CCCC; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    outline: 2px solid #b6b6b6;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    box-shadow: 0px 8px 6px -4px rgba(0,0,0,0.57);
+  }
+  
+  #stopButton {
+    background-color: #00CCCC; /* Red */
+  }
